@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Planner</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Party Planner</h1>
+    <main>
+        <form id="party-form">
+            <table>
+                <tr>
+                    <th>
+                        <label for="name">Party Name:</label>
+                        <input type="text" id="name" placeholder="Party Name">
+                    </th>
+                    <th>
+                        <label for="date">Date:</label>
+                        <input type="date" id="date">
+                    </th>
+                    <th>
+                        <label for="time">Time:</label>
+                        <input type="time" id="time">
+                    </th>
+                    <th>
+                        <label for="location">Location:</label>
+                        <input type="text" id="location" placeholder="Location">
+                    </th>
+                    <th>
+                        <label for="desc">Description:</label>
+                        <input type="text" id="desc" placeholder="Description">
+                    </th>
+                    <th>
+                        <button type="submit">Add Party</button>
+                    </th>
+                </tr>
+            </table>
+        </form>
+        <table id="party-table">
+            <thead>
+                <tr>
+                    <th>Party Name</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Description</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="events-container"></tbody>
+        </table>
+    </main>
+</body>
+</html>
