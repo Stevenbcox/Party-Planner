@@ -4,7 +4,6 @@
 // about a new party that they want to schedule. After filling out the form and submitting it, the user observes their 
 // party added to the list of parties.
 
-
 const API_URL = 'https://fsa-crud-2aa9294fe819.herokuapp.com/api/2410-ftb-et-pt';
 const state = { events: [] };
 
